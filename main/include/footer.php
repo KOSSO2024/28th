@@ -17,7 +17,7 @@
                      [231201] 학회팀 요청 주석-->
                      <!-- [240307] sujeong / 17:00 기준 업로드(v4) -->
                 <li>
-                    <a href="http://18ca921aa745b41a.kinxzone.com/Abstractbook_v4.pdf" class="type2 pink" style="border: 1px solid #fff;" target="_blank">
+                    <a href="http://18ca921aa745b41a.kinxzone.com/Abstractbook_v5.pdf" class="type2 pink" style="border: 1px solid #fff;" target="_blank">
                         <i><img src="/main/img/icons/icon_download_abstract.svg" alt="" style="border:none;border-radius:0px"></i>
                         초록집 <br />다운로드
                     </a>
