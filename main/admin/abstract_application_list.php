@@ -396,11 +396,11 @@
 							<td><a href="./member_detail.php?idx=<?=$list["member_idx"]?>"><?=$list["email"]?></a></td>
 							<!-- <td><?=$list["nation_ko"]?></td> -->
 							<td><?=$list["name"]?></td>
-							<td><a href="./abstract_application_detail.php?idx=<?=$list["abstract_idx"]?>"><?=$list["abstract_title"]?></a></td>
+							<td class="long_txt_container"><a class="long_txt_box" href="./abstract_application_detail.php?idx=<?=$list["abstract_idx"]?>"><?=$list["abstract_title"]?></a></td>
 						<?php if($ext === "pdf") { ?>
-							<td><a href="./pdf_viewer.php?path=<?=$list["path"]?>" target="_blank"><?=$list["abstract_file_name"]?></a></td>
+							<td class="long_txt_container"><a class="long_txt_box" href="./pdf_viewer.php?path=<?=$list["path"]?>" target="_blank"><?=$list["abstract_file_name"]?></a></td>
 						<?php } else { ?>
-							<td><a href="<?=$list["path"]?>" download="<?=$list["submission_code"]?>"><?=$list["abstract_file_name"]?></a></td>
+							<td class="long_txt_container"><a class="long_txt_box" href="<?=$list["path"]?>" download="<?=$list["submission_code"]?>"><?=$list["abstract_file_name"]?></a></td>
 						<?php } ?>
 							<td><?=$list["category"]?></td>
 							<td><?=$list["presentation_type_text"]?></td>
